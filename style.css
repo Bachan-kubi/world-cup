@@ -139,12 +139,30 @@ hr{
 }
 .nav li{
     display: inline-block;
+    margin-left: 30px;
 }
 .nav li a{
     text-decoration: none;
     color: white;
     text-align: center;
-    margin: 10px;
     padding: 15px 20px;
 }
 /* footer style ended */
+/* fixture style */
+.fixtures{
+    border: 1px solid rgb(236, 233, 233);
+    border-radius: 5px;
+}
+.fixture{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 15px;
+}
+.fixture img{
+    width: 100%;
+}
+.fixture h2, h5{
+    text-align: center;
+    padding: 5px 12px;
+}
