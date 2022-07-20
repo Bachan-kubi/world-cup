@@ -170,6 +170,9 @@ hr{
 }
 /* fixture style ended */
 /* making wesite responsive */
+.responsive-banners{
+    display: none;
+}
 @media only screen and (max-width: 576px){
     .container{
         width: 100%;
@@ -177,16 +180,24 @@ hr{
     .top-banners{
         display: none;
     }
-    .banners-responsive{
+    .responsive-banners{
         display: block;
     }
-    .banner h1{
-        font-size: 25px;
-        line-height: 25px;
-        margin-left: -25px;
+    .respon-banners{
+        background-color: black;
+        height: 520px;
     }
-    .banner img{
-        width: 100%;
+    .respon-banner h1, h6{
+        color: white;
+        text-align: left;
+    }
+    .respon-banner h1{
+        font-size: 25px;
+        padding: 10px 0;
+    }
+    .respon-banner h6{
+        font-size: 15px;
+        padding: 10px 0;
     }
     .details{
         display: grid;
