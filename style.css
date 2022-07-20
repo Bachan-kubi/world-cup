@@ -7,25 +7,90 @@
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    margin: 110px 106px;
+    margin: 100px 105px;
 }
 /* Banner styling starts */
-
 .top-banners{
     background-color: black;
-    border-radius: 10px;
-    width: 1321px;
-    height: 645px;
+    border-radius: 20px;
 }
 .banners{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 .banner{
     width: 50%;
+    padding: 0 50px;
 }
 .banner h1, p{
     color: white;
+    padding: 0 30px;
+}
+.banner h1{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+}
+.banner p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.btn{
+    color: white;
+    background-color: crimson;
+    padding: 12px 25px;
+    margin: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn i{
+    margin-left: 10px;
+}
+.banner img{
+    width: 100%;
 }
 /* Banner styling ends */
+/* details dedign starts */
+.details{
+    margin-top: 70px;
+    display: flex;
+}
+.match-info{
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
+.match-btn{
+    padding: 20px 30px;
+    font-size: 15px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.match-info a{
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+a.red{
+    background-color: crimson;
+    color: white;
+}
+.single-player img{
+    width: 100%;
+}
+.single-player button{
+    padding: 7px 12px;
+}
+.single-player p{
+    color: black;
+}
+/* details dedign ends*/
