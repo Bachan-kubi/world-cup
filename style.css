@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 110px 106px;
+}
+/* Banner styling starts */
+
+.top-banners{
+    background-color: black;
+    border-radius: 10px;
+    width: 1321px;
+    height: 645px;
+}
+.banners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    width: 50%;
+}
+.banner h1, p{
+    color: white;
+}
+/* Banner styling ends */
