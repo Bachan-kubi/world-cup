@@ -52,13 +52,14 @@
     width: 100%;
 }
 /* Banner styling ends */
-/* details dedign starts */
+/* details design-left starts */
 .details{
     margin-top: 70px;
     display: flex;
 }
 .match-info{
     width: 25%;
+    height: 400px;
     background-color: black;
     border-radius: 10px;
     margin-right: 20px;
@@ -84,6 +85,19 @@ a.red{
     background-color: crimson;
     color: white;
 }
+/* details design-left starts */ 
+/* single player style started */
+.trasnfer-info{
+    width: 75%;
+}
+.players-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.single-player{
+    border: 1px solid rgb(236, 234, 234);
+}
 .single-player img{
     width: 100%;
 }
@@ -96,4 +110,4 @@ a.red{
 .time-info{
     margin-left: 30px;
 }
-/* details dedign ends*/
+/* single player style ended */
