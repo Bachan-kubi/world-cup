@@ -97,6 +97,7 @@ a.red{
 }
 .single-player{
     border: 1px solid rgb(236, 234, 234);
+    padding: 20px;
 }
 .single-player img{
     width: 100%;
@@ -107,7 +108,41 @@ a.red{
 .single-player p{
     color: black;
 }
-.time-info{
+.time-info i{
     margin-left: 30px;
 }
 /* single player style ended */
+/* footer style started */
+footer{
+    background-color: black;
+    padding: 50px;
+}
+.footer-text{
+    margin: 10px 100px;
+    padding: 30px 30px;
+    color: rgb(226, 224, 224);
+}
+.footer-text h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+hr{
+    margin: 40px 0;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav li{
+    display: inline-block;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 15px 20px;
+}
+/* footer style ended */
