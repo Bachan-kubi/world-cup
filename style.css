@@ -172,8 +172,29 @@ hr{
 /* fixture style ended */
 
 /* make website responsive */
+.match-info-responsive{
+    display: none;
+}
 @media only screen and (max-width: 576px){
     .container{
         width: 100%;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .match-info{
+        display: grid;
+        background-color: white;
+    }
+    .players-info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-text{
+        text-align: center;
+    }
+    .hr{
+        width: 80%;
     }
 }
