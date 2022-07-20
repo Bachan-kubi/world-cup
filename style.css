@@ -103,10 +103,12 @@ a.red{
     width: 100%;
 }
 .single-player button{
-    padding: 9px 10px;
+    padding: 7px 12px;
+    font-weight: 700;
 }
 .single-player p{
     color: black;
+    margin: 15px 0;
 }
 .time-info i{
     margin-left: 30px;
