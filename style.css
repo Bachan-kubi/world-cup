@@ -266,6 +266,7 @@ hr{
 .view-btn{
     display: none;
 }
+
 @media only screen and (min-width: 577px) and (max-width: 990px){
     .container{
         width: 100%;
@@ -327,3 +328,4 @@ hr{
         font-weight: 400;
         font-size: 20px;
     }
+}
