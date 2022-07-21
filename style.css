@@ -299,4 +299,17 @@ hr{
     .transfer-info-responsive{
         display: block;
     }
+    .players-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .view-btn{
+        padding: 10px 20px;
+        margin: 20px 0;
+        color: white;
+        background-color: crimson;
+        border: none;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 20px;
 }
