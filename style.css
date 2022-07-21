@@ -252,12 +252,15 @@ hr{
         width: 200px;
     }
 }
+.transfer-info-responsive{
+    display: none;
+}
 @media only screen and (min-width: 577px) and (max-width: 990px){
     .container{
         width: 100%;
     }
     .banner{
-        width: 100%;
+        width: 50%;
     }
     .banner h1{
         font-size: 50px;
@@ -287,8 +290,13 @@ hr{
         margin: 5px;
         height: 120px;
     }
-    .players-info{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    .trasnfer-info{
+        display: none;
+    }
+    /* .player-info{
+        display: none;
+    } */
+    .transfer-info-responsive{
+        display: block;
     }
 }
