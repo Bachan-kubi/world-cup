@@ -213,7 +213,14 @@ hr{
         font-size: 15px;
         font-weight: 400;
     }
-    
+    .btn{
+        padding: 10px 40px;
+    }
+    .btn i{
+        text-align: center;
+        font-size: 10px;
+        padding
+    }
     .banners-responsive .banner img{
         width: 200%;
     }
@@ -240,9 +247,17 @@ hr{
     .footer-text{
         text-align: center;
         /* margin-right: 70px; */
-        
     }
     hr{
         width: 200px;
     }
+}
+@media only screen and (min-width: 577px) and (max-width: 990px){
+    .container{
+        width: 100%;
+    }
+    .banners{
+        display: none;
+    }
+    .banners-responsive
 }
