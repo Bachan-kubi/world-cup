@@ -256,8 +256,15 @@ hr{
     .container{
         width: 100%;
     }
-    .banners{
-        display: none;
+    .banner{
+        width: 100%;
     }
-    .banners-responsive
+    .banner h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .banner img{
+        width: 100%;
+        margin-right: 40px;
+    }
 }
