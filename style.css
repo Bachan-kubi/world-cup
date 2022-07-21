@@ -180,13 +180,51 @@ hr{
 .match-info-responsive{
     display: none;
 }
+.banners-responsive{
+    display: none;
+}
 @media only screen and (max-width: 576px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
     .container{
         width: 100%;
+        margin: 0 auto;
+    }
+    .banners{
+        display: none;
+    }
+    .banners-responsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banners-responsive h3, p{
+        color: white;
+        text-align: center;
+    }
+    .banners-responsive h3{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .banners-responsive p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    .banners-responsive .banner img{
+        width: 200%;
+    }
+    .match-btn{
+        border: 1px solid rgb(209, 208, 208);
+        margin: -40px
     }
     .details{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .match-info{
         display: grid;
@@ -196,10 +234,15 @@ hr{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    footer{
+        width: 100%;
+    }
     .footer-text{
         text-align: center;
+        /* margin-right: 70px; */
+        
     }
-    .hr{
-        width: 80%;
+    hr{
+        width: 200px;
     }
 }
